@@ -1,0 +1,5 @@
+{
+    "Windows":"echo Hello World!!",
+    "MacOS":"echo Hello World!!",
+    "Linux":"echo Hello World!!"
+}
