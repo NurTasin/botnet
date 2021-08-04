@@ -7,6 +7,8 @@ THIS SOFTWARE WAS CREATED FOR EDUCATION PERPOSES ONLY.
 AUTHOR WILL NOT TAKE RESPONSABILITIES OF ANY HARMS AND/OR DAMAGES CAUSED BY THIS SOFTWARE. 
 
 ## Server
+DEFAULT_SECRET_KEY: `doyal_baba`
+
 Deploy the server.py file to your cloude provider or on your computer.
 After that change the address on bot.py (Line 6) and botctl.py (Line 3).
 And you are ready to rock and roll. Just send bot.py to your targets.
