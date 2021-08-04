@@ -6,7 +6,7 @@ import hashlib
 
 app=Flask(__name__)
 
-secret_key="3f65226a0c3ef113bc8523d0172ee64b59cc45d7f6081e815ea212af5652dfd6"
+secret_key="3f65226a0c3ef113bc8523d0172ee64b59cc45d7f6081e815ea212af5652dfd6" #doyal_baba
 
 @app.route("/latest/",methods=["GET"])
 def hostCommand():
