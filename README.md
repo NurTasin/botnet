@@ -1,5 +1,5 @@
 # Botnet
-A simple botnet written 100% in python and distrubutable to any major OSs on which this will run natively.
+A simple botnet written 100% in python and distributable to any major OSs on which this will run natively.
 
 
 ## Warning
@@ -11,7 +11,7 @@ This botnet has :
 1. Remote code execution
 2. Acquires Administrator Previleges (Windows)
 3. Adds the bot to startup (Windows)
-4. Replecates itself to all removable drives (Windows)
+4. Replicates itself to all removable drives (Windows)
 
 ## Build Methods
 ### Windows
@@ -51,11 +51,11 @@ sh make_all.sh
 ## Server
 DEFAULT_SECRET_KEY: `doyal_baba`
 
-Deploy the server.py file to your cloude provider or on your computer.
+Deploy the server.py file to your cloud provider or on your computer.
 After that change the address on bot.py (Line 6) and botctl.py (Line 3).
 And you are ready to rock and roll. Just send bot.py to your targets.
 
-## Reccomendations
+## Recommendations 
 If you distribute bot.py file then you have to make sure that your target device can run python file...
 But it is reccomended to ditribute the compiled binary (*.exe or *.elf or *.dmg). These kinds of files
 can be run on any device without dependencies.
